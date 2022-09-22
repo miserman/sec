@@ -1,0 +1,8 @@
+template:
+  bootstrap: 5
+  bootswatch: flatly
+
+home:
+  links:
+  - text: Test Coverage
+    href: coverage.html

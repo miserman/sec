@@ -1,0 +1,20 @@
+Package: sec
+Type: Package
+Title: Securities and Exchange Commission APIs
+Version: 0.0.1
+Date: 2022-09-21
+Authors@R: c(
+    person("Biocomplexity Institute", role = c("aut", "cph")),
+    person("Micah", "Iserman", role = "cre", email = "micah.iserman@gmail.com")
+  )
+Description: Search for companies, and download and parse their Securities and Exchange
+  Commission (SEC) filings.
+License: MIT + file LICENSE
+Imports: cli, httr, jsonlite
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+RoxygenNote: 7.2.1
+Roxygen: list(old_usage = TRUE)
